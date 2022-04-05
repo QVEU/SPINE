@@ -1,0 +1,4 @@
+Middle fragment_fwd	gaggaacagagagacattaatgga	25nm	STD
+Middle fragment_rev	cgcctgagccagacgaaata	25nm	STD
+Outerfragment_fwd	tatttcgtctggctcaggcg	25nm	STD
+Outerfragment_rev	tccattaatgtctctctgttcctc	25nm	STD
