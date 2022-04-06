@@ -1,3 +1,5 @@
+#Transforms a SPINE generated insertional library to a deletion library. Removes molecular handle and first downstream codon. 
+#Usage: python3 edit_deletions.py infile.fa outfile.fa
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
@@ -37,5 +39,5 @@ def outputSeqs(newSeqs,names,OFname):
 if __name__ == "__main__":
     names, seq = readInFile(sys.argv[1])
     newSeqs=editSeqs(seq)
-    outputFileName=sys.argv[2] 
+    outputFileName=sys.argv[2]
     outputSeqs(newSeqs,names,outputFileName)
